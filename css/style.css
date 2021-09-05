@@ -15,6 +15,30 @@ p {
     font-size: 1rem;
 }
 
+.bg-primary, 
+.list-group-item-primary,
+.btn-primary {
+    background-color: #f46669!important;
+}
+
+.btn-primary {
+    border-color: #f46669;
+}
+
+.bg-secondary, .list-group-item-secondary {
+    background-color: #c7c57d!important;
+}
+
+.badge-secondary {
+    background-color: #c7c57d;
+    color: black;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+
 .nav-link {
     color: black;
 }
@@ -26,10 +50,6 @@ p {
 .nav-link.active {
     color: #f46669;
     border-bottom: 2px solid #f46669;
-}
-
-.bg-light {
-    background-color: white!important;
 }
 
 .separador::after {
@@ -47,6 +67,8 @@ p {
     background-image: url(../img/separador-inverso.png);
 }
 
+/** Imagenes de fondo **/
+
 .imagen-destacada {
     height: 24rem;
     background-size: cover;
@@ -54,6 +76,10 @@ p {
 
 .nosotros-bg {
     background-image: url(../img/principal1.jpg);
+}
+
+.clase-bg {
+    background-image: url(../img/1.jpg);
 }
 
 /** Nosotros **/
@@ -90,11 +116,6 @@ blockquote.subtitulo {
     font-weight: 700;
 }
 
-.btn-primary {
-    background-color: #f46669;
-    border-color: #f46669;
-}
-
 .btn-primary:hover {
     background-color: #e65659;
     border-color: #e65659;
@@ -105,10 +126,6 @@ blockquote.subtitulo {
 }
 
 /** sidebar **/ 
-
-.bg-primary {
-    background-color: #f46669!important;
-}
 
 aside a,
 aside a:hover {
@@ -145,11 +162,6 @@ aside .card-footer a {
     margin-bottom: 2rem;
 }
 
-.badge-secondary {
-    background-color: #c7c57d;
-    color: black;
-}
-
 .card-title {
     font-weight: 700;
 }
@@ -157,6 +169,12 @@ aside .card-footer a {
 .card-subtitle {
     color: #f46669;
     font-weight: 400;
+}
+
+/** Instructor **/ 
+.instructor {
+    font-size: 1.8rem;
+    color: #f46669;
 }
 
 .copyright {
